@@ -1,0 +1,140 @@
+.headerTopContainer {
+  height: 83px;
+  padding: 1.3rem;
+}
+.logoContainer {
+  width: 72px;
+}
+.logoContainer img {
+  width: 100%;
+}
+
+.headerBottomContainer {
+  padding: 0 1.3rem 120px;
+}
+.picturesContainer {
+  margin-bottom: 30px;
+}
+.backgroundPictureContainer {
+  position: relative;
+}
+.frontPictureContainer {
+  position: absolute;
+  top: -15px;
+  left: -1px;
+  transform: scale(1.22);
+  width: 100%;
+}
+.backgroundPictureContainer img,
+.frontPictureContainer img {
+  width: 100%;
+}
+.infoContainer {
+  font-weight: 700;
+}
+.textContainer {
+  margin-bottom: 50px;
+}
+.textContainer h1 {
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.textContainer p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #1d1d11;
+  opacity: 0.6;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 469px) {
+  .headerTopContainer {
+    height: 120px;
+    padding: 30px 50px;
+  }
+  .headerBottomContainer {
+    padding: 0 50px 120px;
+  }
+  .picturesContainer {
+    max-width: 400px;
+    margin: 0 auto 30px;
+  }
+  .logoContainer {
+    width: 120px;
+  }
+}
+@media (min-width: 800px) {
+  .headerBottomContainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .infoContainer {
+    width: 60%;
+    margin-right: 10px;
+  }
+  .picturesContainer {
+    width: 40%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .backgroundPictureContainer {
+    max-width: 480px;
+  }
+  .textContainer p {
+    width: 80%;
+  }
+  .buttonsContainer {
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1000px) {
+  .headerBottomContainer {
+    padding: 0 80px 120px;
+  }
+  .headerTopContainer {
+    padding: 40px 80px;
+    height: 140px;
+  }
+  .buttonsContainer {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .buttonsContainer button:first-child {
+    width: 210px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    height: 50px;
+  }
+  .buttonsContainer button:last-child {
+    width: 244px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .headerBottomContainer {
+    padding: 0 80px 170px;
+  }
+  .textContainer h1 {
+    font-family: "Charlevoix Pro", sans-serif;
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .textContainer p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}

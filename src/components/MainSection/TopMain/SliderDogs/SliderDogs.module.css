@@ -1,0 +1,28 @@
+.sliderImgContainer {
+  padding: 0 5px;
+}
+.sliderImgContainer img {
+  width: 100%;
+}
+.sliderContainer {
+  padding: 100px 0 70px;
+}
+.sliderContainerDesktop {
+  display: none;
+}
+
+@media (min-width: 469px) {
+  .sliderContainer {
+    padding: 100px 50px 70px;
+  }
+}
+@media (min-width: 1000px) {
+  .sliderContainer {
+    display: none;
+  }
+  .sliderContainerDesktop {
+    display: block;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}

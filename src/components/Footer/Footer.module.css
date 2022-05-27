@@ -1,0 +1,120 @@
+footer {
+  background-color: #111111;
+  padding: 60px 1.3rem 100px;
+  color: #fff;
+}
+.infoContainer {
+  font-size: 16px;
+  line-height: 22px;
+}
+.about {
+  margin-bottom: 45px;
+}
+.title {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.politics {
+  margin-bottom: 45px;
+}
+.politicsTop {
+  margin-bottom: 45px;
+}
+.politics p {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.politics p:hover {
+  color: #ee7333;
+}
+.politics p:last-child {
+  margin-bottom: 0;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.socialLogoContainer {
+  margin-right: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.socialLogoContainer:hover {
+  color: #ee7333;
+}
+.socialLogoContainer:last-child {
+  margin-right: 0;
+}
+
+.paymentLogosContainer {
+  display: flex;
+  align-items: center;
+}
+.paymentLogoContainer {
+  margin-right: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 58px;
+  cursor: pointer;
+}
+.paymentLogoContainer:last-child {
+  margin-right: 0;
+}
+
+@media (min-width: 469px) {
+  footer {
+    padding: 60px 50px 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  footer {
+    padding: 60px 80px 60px;
+  }
+  .politicsBottom {
+    display: none;
+  }
+  .politicsTop {
+    margin-bottom: 0;
+  }
+  .infoContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .infoContainer section {
+    margin: 0;
+  }
+  .social {
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .socialLogoContainer {
+    margin-right: 0;
+  }
+  .about {
+    max-width: 35%;
+    padding-right: 15px;
+  }
+  .politics,
+  .social {
+    width: 20%;
+    padding-right: 15px;
+  }
+  .politics {
+    max-width: 200px;
+  }
+  .social {
+    max-width: 250px;
+  }
+  .payment {
+    width: 25%;
+    max-width: fit-content;
+  }
+}

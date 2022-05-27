@@ -1,0 +1,55 @@
+.description {
+  padding: 0 1.3rem;
+}
+
+.descriptionButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 1rem;
+}
+.descriptionTop {
+  margin-bottom: 50px;
+}
+.descriptionTop p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111111;
+}
+
+@media (min-width: 469px) {
+  .description {
+    padding: 0 50px;
+  }
+}
+@media (min-width: 1000px) {
+  .description {
+    padding: 0;
+    width: 50%;
+  }
+  .title {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .descriptionButtons {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .descriptionButtons button:first-child {
+    width: 210px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    height: 50px;
+  }
+  .descriptionButtons button:last-child {
+    width: 244px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,7 @@
+@media (min-width: 1000px) {
+  .topMainContainer {
+    display: flex;
+    padding: 120px 80px 50px;
+    align-items: center;
+  }
+}
